@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs", // Important for Jest compatibility
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": "./" // Change rootDir to include both src and tests
+  },
+  "include": ["src/**/*", "tests/**/*"], // Include both source and test files
+  "exclude": ["node_modules"]
+}
